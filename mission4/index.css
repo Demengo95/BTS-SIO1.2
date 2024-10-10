@@ -1,0 +1,67 @@
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center; /* Centrer le texte */
+}
+
+/* Style pour le header */
+header {
+    background-color: #c39bd3; /* Fond de couleur */
+    color: white; /* Couleur du texte en blanc */
+    padding: 40px 0; /* Espacement autour du texte */
+    margin-bottom: 20px; /* Espace en bas du header */
+}
+
+h1 {
+    font-size: 48px; /* Taille du texte pour le titre */
+    margin: 0; /* Supprimer les marges par défaut */
+}
+
+p {
+    font-size: 20px; /* Taille du texte pour le sous-titre */
+    margin-top: 10px;
+}
+
+/* Style pour la navigation */
+nav ul {
+    list-style-type: none; /* Supprimer les puces */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Afficher les liens côte à côte */
+    margin: 0 20px; /* Espace entre les liens */
+}
+
+.link-card {
+    display: inline-block; /* Permet d'appliquer des styles de bloc */
+    background-color: #c39bd3; /* Couleur de fond de l'encadré */
+    color: white; /* Couleur du texte */
+    padding: 15px 30px; /* Espacement à l'intérieur de l'encadré */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    border-radius: 10px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Effet de transition */
+    font-size: 18px; /* Taille de police */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour effet de bouton */
+}
+
+.link-card:hover {
+    background-color: #ab8db7; /* Couleur au survol */
+    transform: translateY(-2px); /* Effet de levée au survol */
+}
+
+.link-card:active {
+    transform: translateY(0); /* Effet de retour au clic */
+}
+
+nav ul li a {
+    text-decoration: none; /* Supprimer la décoration des liens */
+}
+
+/* Assurez-vous que les liens de navigation utilisent la classe link-card */
+nav ul li a.link-card {
+    color: white; /* Changer la couleur pour les boutons */
+}

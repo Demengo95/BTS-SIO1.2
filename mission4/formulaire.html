@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Formulaire d'inscription</h1>
+
+    <form action="#" method="POST">
+        <table border="0">
+            <tr>
+                <td><label for="pseudo">Pseudo*</label></td>
+                <td><input type="text" id="pseudo" name="pseudo" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Mot de passe</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="prenom">Prénom</label></td>
+                <td><input type="text" id="prenom" name="prenom" placeholder="Votre Prenom"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="avatar">Avatar</label></td>
+                <td><input type="file" id="avatar" name="avatar"></td>
+            </tr>
+            <tr>
+                <td><label for="pays">Pays</label></td>
+                <td>
+                    <select id="pays" name="pays">
+                        <option value="france">France</option>
+                        <option value="espagne">Espagne</option>
+                        <option value="italie">Italie</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Quels sont vos fruits préférés ?</td>
+                <td>
+                    <div style="display: flex; align-items: center;">
+                        <input type="checkbox" id="Banane" name="fruits" value="Banane">
+                        <label for="Banane">Banane</label>
+                        <input type="checkbox" id="pastèque" name="fruits" value="pastèque">
+                        <label for="pastèque">Pastèque</label>
+                        <input type="checkbox" id="mangue" name="fruits" value="mangue">
+                        <label for="mangue">Mangue</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Civilité</td>
+                <td>
+                    <div style="display: flex; align-items: center;">
+                        <input type="radio" id="homme" name="civilite" value="homme">
+                        <label for="homme">Homme</label>
+                        <input type="radio" id="femme" name="civilite" value="femme">
+                        <label for="femme">Femme</label>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label for="ville">Ville</label></td>
+                <td><input type="text" id="ville" name="ville"></td>
+            </tr>
+            <tr>
+                <td><label for="code_postale">Code Postale</label></td>
+                <td><input type="text" id="code_postale" name="code_postale"></td>
+            </tr>
+            <tr>
+                <td><label for="adresse">Adresse</label></td>
+                <td><textarea id="adresse" name="adresse"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="date_naissance">Date de Naissance</label></td>
+                <td><input type="date" id="date_naissance" name="date_naissance"></td>
+            </tr>
+            <tr>
+                <td><label for="jauge">Jauge</label></td>
+                <td><input type="range" id="jauge" name="jauge" min="0" max="100"></td>
+            </tr>
+            <tr>
+                <td><label for="telephone">Téléphone</label></td>
+                <td><input type="tel" id="telephone" name="telephone"></td>
+            </tr>
+            <tr>
+                <td><label for="recherche">Recherche</label></td>
+                <td><input type="search" id="recherche" name="recherche"></td>
+            </tr>
+            <tr>
+                <td><label for="url">URL</label></td>
+                <td><input type="url" id="url" name="url"></td>
+            </tr>
+            <tr>
+                <td><label for="couleur">Couleur</label></td>
+                <td><input type="color" id="couleur" name="couleur"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit"id="submit-button"><a href="confirmation.html">valider</a></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+
+    <a href="index.html">Retour au Sommaire</a>
+
+</body>
+</html>
