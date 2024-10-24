@@ -1,0 +1,77 @@
+header {
+    background: #68d6f5;
+    padding: 10px 0;
+    text-align: center;
+}
+.Intro {
+    background-color:#767df2;
+    width: 350px;
+    height: 400px;
+    margin: 1%;
+    float: left;
+    text-align: center;
+}
+
+
+.Introp {
+    background: #68d6f5; 
+    padding: 10px 0;
+    text-align: center;
+    width: 100%; 
+    float: left;
+    margin-bottom: 20px; 
+}
+
+.JOJO {
+    background-color:#767df2;
+    width: 350px;
+    height: 400px;
+    margin: 1%;
+    float: left;
+    text-align: center;
+}
+
+
+.JOJOS {
+    background: #68d6f5; 
+    padding: 10px 0;
+    text-align: center;
+    width: 100%; 
+    float: left;
+    margin-bottom: 20px; 
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+body{
+    background: #f1e6dd;
+}
+
+.resume {
+    background-color:#767df2;
+    width: 350px;
+    height: 400px;
+    margin: 1%;
+    float: left;
+    text-align: center;
+}
+
+
+.resumes {
+    background: #68d6f5; 
+    padding: 10px 0;
+    text-align: center;
+    width: 100%; 
+    float: left;
+    margin-bottom: 20px; 
+}
+.retour{
+    background-color: #68d6f5;
+    width: 100%;
+    height: 50px;
+    padding-bottom: 10px 0;
+    text-align: center;
+    clear: both;
+}
