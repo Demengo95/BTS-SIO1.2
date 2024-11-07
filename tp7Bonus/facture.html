@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture</title>
+    <link rel="stylesheet" href="facture.css">
+</head>
+<body>
+    <center>
+        <h1>Facture en Javascript</h1>
+        <table>
+            <tr>
+                <th>Article</th>
+                <th>Prix (€)</th>
+                <th>Quantité</th>
+                <th>Résultat (€)</th>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Entrer un article"></td>
+                <td><input type="number" placeholder="Entrer le prix" oninput="calculerResultat(0)"></td>
+                <td><input type="number" placeholder="Entrer la quantité" oninput="calculerResultat(0)"></td>
+                <td><input type="text" readonly id="resultat0" value="0"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Entrer un article"></td>
+                <td><input type="number" placeholder="Entrer le prix" oninput="calculerResultat(1)"></td>
+                <td><input type="number" placeholder="Entrer la quantité" oninput="calculerResultat(1)"></td>
+                <td><input type="text" readonly id="resultat1" value="0"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Entrer un article"></td>
+                <td><input type="number" placeholder="Entrer le prix" oninput="calculerResultat(2)"></td>
+                <td><input type="number" placeholder="Entrer la quantité" oninput="calculerResultat(2)"></td>
+                <td><input type="text" readonly id="resultat2" value="0"></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right; font-weight: bold;">Total :</td>
+                <td><input type="text" readonly id="total" value="0"></td>
+            </tr>
+        </table>
+        <button onclick="reinitialiser()">Réinitialiser</button>
+    </center>
+
+    <script src="facture.js"></script>
+    <a href="../index.html">Retour INDEX</a>
+</body>
+</html>
