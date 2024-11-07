@@ -1,0 +1,99 @@
+/* Style général */
+body {
+    background-image: url('https://miro.medium.com/v2/resize:fit:1100/1*vlfbAxa4AIVeWL4lvJPT3Q.png');
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f1f1f1; /* Texte en gris très clair pour contraste */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Effet d'opacité sur le fond du formulaire */
+center {
+    background-color: rgba(59, 59, 59, 0.9); /* Couleur sombre avec opacité */
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Ombre pour effet de relief */
+    text-align: center;
+}
+
+
+/* Titre */
+h1 {
+    font-size: 2rem;
+    color: #d81f26; /* Rouge vif pour rappeler le sang et l'intensité */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #000; /* Ombre pour ajouter un effet dramatique */
+}
+
+/* Libellés */
+label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Champs de texte */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #d81f26; /* Bordure rouge pour thème Chainsaw Man */
+    border-radius: 5px;
+    background-color: #1f1f1f; /* Noir profond pour le champ de texte */
+    color: #f1f1f1;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #f1f1f1; /* Changer la couleur en blanc pour l'accentuation */
+    outline: none;
+}
+
+/* Boutons */
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Bouton Se connecter */
+button[onclick="login()"] {
+    background-color: #d81f26;
+    color: #f1f1f1;
+}
+
+button[onclick="login()"]:hover {
+    background-color: #ff4d5a; /* Rouge plus clair pour l'effet de survol */
+}
+
+/* Bouton Annuler */
+button[onclick="retour()"] {
+    background-color: #3b3b3b;
+    color: #f1f1f1;
+}
+
+button[onclick="retour()"]:hover {
+    background-color: #555555; /* Gris plus clair au survol */
+}
+
+/* Ligne de séparation */
+hr {
+    border: 1px solid #d81f26; /* Ligne rouge pour séparer les sections */
+    width: 90%; /* Largeur de la ligne */
+    margin: 0 auto; /* Centrer la ligne */
+}
