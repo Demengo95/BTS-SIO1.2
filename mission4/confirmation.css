@@ -1,0 +1,49 @@
+/* styles.css */
+
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    background-color: #f4f4f4; /* Couleur de fond */
+}
+
+/* Titre principal */
+h1 {
+    color: #600f0f; /* Couleur du titre */
+    font-size: 36px; /* Taille du titre */
+    margin-bottom: 10px; /* Espace sous le titre */
+}
+
+/* Paragraphe de confirmation */
+p {
+    font-size: 18px; /* Taille de la police du paragraphe */
+    color: #333; /* Couleur du texte */
+    text-align: center; /* Centre le texte */
+    margin-bottom: 20px; /* Espace sous le paragraphe */
+}
+
+/* Style pour le lien de retour */
+a {
+    color: #600f0f; /* Couleur du lien */
+    text-decoration: none; /* Pas de soulignement */
+    font-weight: bold; /* Gras */
+}
+
+a:hover {
+    text-decoration: underline; /* Souligné au survol */
+}
+
+/* Style de l'ensemble du contenu */
+.card {
+    background-color: white; /* Couleur de fond blanche */
+    padding: 20px; /* Espacement interne */
+    border-radius: 10px; /* Bordures arrondies */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-align: center; /* Centre le texte */
+}

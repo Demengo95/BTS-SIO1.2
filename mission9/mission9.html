@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM Fairy Tail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Quiz Fairy Tail</h1>
+    <form id="quizForm">
+        <div class="question">
+            <p>1. Qui est le personnage principal de Fairy Tail ?</p>
+            <input type="radio" name="q1" value="Natsu"> Natsu <br>
+            <input type="radio" name="q1" value="Gray"> Gray <br>
+            <input type="radio" name="q1" value="Erza"> Erza <br>
+        </div>
+        
+        <div class="question">
+            <p>2. Quelle est la magie principale de Natsu ?</p>
+            <input type="radio" name="q2" value="Feu"> Feu <br>
+            <input type="radio" name="q2" value="Glace"> Glace <br>
+            <input type="radio" name="q2" value="Eau"> Eau <br>
+        </div>
+        
+        <div class="question">
+            <p>3. Quel est le nom du chat bleu qui accompagne Natsu ?</p>
+            <input type="radio" name="q3" value="Happy"> Happy <br>
+            <input type="radio" name="q3" value="Carla"> Carla <br>
+            <input type="radio" name="q3" value="Panther Lily"> Panther Lily <br>
+        </div>
+
+        <div class="question">
+            <p>4. Quel est le passé d'Erza Scarlett ? ?</p>
+            <input type="radio" name="q4" value="Elle a tué ses parents"> Elle a tué ses parents <br>
+            <input type="radio" name="q4" value="Elle a été esclave"> Elle a été esclave
+            <br>
+            <input type="radio" name="q4" value="Elle a été élevée par un dragon "> Elle a été élevée par un dragon
+            <br>
+        </div>
+
+        <div class="question">
+            <p>5. Quel est le point commun entre Gajil et Natsu ?</p>
+            <input type="radio" name="q5" value="Ils sont de la même famille"> Ils sont de la même famille<br>
+            <input type="radio" name="q5" value="Ils sont chasseurs de dragons"> Ils sont chasseurs de dragons<br>
+            <input type="radio" name="q5" value="Ils contrôlent les esprits"> Ils contrôlent les esprits<br>
+        </div>
+        
+
+
+        <div class="question">
+            <p>6.Qui est véritablement Mistgun ?</p>
+            <input type="radio" name="q6" value="Gérald"> Gérald <br>
+            <input type="radio" name="q6" value="Gajil"> Gajil <br>
+            <input type="radio" name="q6" value="igneel"> igneel
+            <br>
+        </div>
+
+
+        <div class="question">
+            <p>7. Quel est le lien entre Luxus et Marakov ?</p>
+            <input type="radio" name="q7" value="Luxus est le fils de Marakov"> Luxus est le fils de Marakov<br>
+            <input type="radio" name="q7" value="Luxus est le petit-fils de Marakov"> Luxus est le petit-fils de Marakov<br>
+            <input type="radio" name="q7" value="Luxus est un esprit de Marakov"> Luxus est un esprit de Marakov<br>
+        </div>
+        
+
+        <div class="question">
+            <p>8. Quand Ingeel et tous les autres dragons ont-ils disparu ?</p>
+            <input type="radio" name="q8" value="Le 5 mai"> Le 5 mai<br>
+            <input type="radio" name="q8" value="Le 7 juillet"> Le 7 juillet<br>
+            <input type="radio" name="q8" value="Le 3 mars"> Le 3 mars<br>
+        </div>
+        
+
+        <div class="question">
+            <p>9.Que fait tout le temps Grey ?</p>
+            <input type="radio" name="q9" value="Il boit"> Il boit <br>
+            <input type="radio" name="q9" value="Il mange de la glace"> Il mange de la glace <br>
+            <input type="radio" name="q9" value="Il se déshabille tout le temps"> Il se déshabille tout le temps <br>
+        </div>
+
+        <div class="question">
+                <p>10. Où Natsu a-t-il trouvé Happy ?</p>
+                <input type="radio" name="q10" value="Dans un oeuf de dragon"> Dans un oeuf de dragon<br>
+                <input type="radio" name="q10" value="Dans une forêt"> Dans une forêt<br>
+                <input type="radio" name="q10" value="Dans une rivière"> Dans une rivière<br>
+            </div>
+            
+        </div>
+
+
+
+
+        <button type="button" onclick="corriger()">Correction</button>
+        <button type="button" onclick="afficherCorrige()">Corrigé</button>
+        <button type="button" onclick="resetQuiz()">Effacer</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

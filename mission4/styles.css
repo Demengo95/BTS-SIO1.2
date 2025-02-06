@@ -1,0 +1,81 @@
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px; /* Ajout d'un padding pour aérer les côtés */
+    display: flex;
+    flex-direction: column; /* Organise le contenu en colonne */
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
+    min-height: 100vh; /* S'assure que le corps occupe au moins 100% de la hauteur de la fenêtre */
+    background-color: #f4f4f4;
+}
+
+/* Style pour le conteneur du formulaire */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px; /* Bordures arrondies */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre légère */
+    max-width: 500px; /* Largeur maximale du formulaire */
+    width: 100%; /* S'adapte à la largeur de l'écran */
+    margin-bottom: 20px; /* Espacement avec le bas de la page */
+}
+
+/* Centrer le titre */
+h1 {
+    text-align: center;
+    color: #600f0f; /* Couleur du texte du titre */
+    font-size: 28px; /* Augmente la taille de la police */
+    margin-bottom: 20px; /* Espace sous le titre */
+}
+
+/* Centrer la table */
+table {
+    width: 100%; /* Le tableau occupe toute la largeur */
+}
+
+/* Style pour les cellules du tableau */
+td {
+    padding: 10px;
+}
+
+/* Centrer les éléments du formulaire */
+input, select, textarea, button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Arrondir les bordures des champs */
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Espacement entre les éléments */
+}
+
+/* Style du bouton Valider */
+button {
+    background-color: #850f0f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Effet hover sur le bouton Valider */
+button:hover {
+    background-color: #850f0f;
+}
+
+/* Style pour le lien de retour */
+a {
+    text-align: center;
+    display: block;
+    margin-top: auto; /* Force le lien à se déplacer en bas de la page */
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

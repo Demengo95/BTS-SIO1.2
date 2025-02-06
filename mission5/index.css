@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%; 
+}
+
+body {
+    height: 1000px; 
+    display: flex;
+    flex-direction: column; 
+    padding: 20px; 
+    background-color: white; 
+    border: 5px solid #4e5d6c; /* Appliquer la bordure ici */
+}
+
+.haut {
+    background-color: rgb(120, 98, 146);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+    height: 250px;
+    display: flex;
+    border-radius: 8px;
+}
+
+.block {
+    color: white;
+    font-size: 24px;
+    flex-grow: 1; 
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.formation {
+    background-color: rgb(120, 98, 146);
+    color: white;
+    padding: 20px;
+    margin: 20px 0; 
+    width: 90%;
+    display: flex;
+    border-radius: 8px;
+}
+
+.ex {
+    background-color: rgb(120, 98, 146);
+    color: white;
+    padding: 20px;
+    margin: 20px 0; 
+    width: 90%;
+    display: flex;
+    border-radius: 8px;
+}
+
+hr {
+    background-color: rgb(120, 98, 146);
+    height: 10px;
+}
+
+.date, .lycee, .date2, .lycee2 {
+    float: left;
+}

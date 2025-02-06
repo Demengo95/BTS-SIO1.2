@@ -1,0 +1,91 @@
+/* Styles Généraux */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  color: #333;
+}
+
+/* Conteneur Principal */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Titres */
+h1 {
+  color: #0056b3;
+  font-weight: 600;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+/* Liste des Exercices */
+.exercise-list {
+  list-style: none;
+  padding: 0;
+}
+
+.exercise-list li {
+  padding: 12px;
+  margin: 5px 0;
+  background: #f1f1f1;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.exercise-list li:hover {
+  background: #0056b3;
+  color: white;
+}
+
+/* Zones d'Affichage */
+textarea, .demo-output, .code-container {
+  width: 95%;
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: monospace;
+  background: #f9f9f9;
+}
+
+.demo-output {
+  background: #eaf6ff;
+  border-left: 5px solid #0056b3;
+}
+
+/* Boutons */
+button {
+  padding: 12px 15px;
+  margin-top: 10px;
+  background: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #003d80;
+}
+
+/* Animation d'apparition */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.exercise-detail {
+  animation: fadeIn 0.5s ease-in-out;
+}
