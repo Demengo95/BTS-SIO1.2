@@ -1,0 +1,77 @@
+body {
+    font-family: 'Comic Sans MS', 'Anime Ace', sans-serif;
+    background: #525252;
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 3px 3px #000000;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 1000px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px dashed #333;
+    border-radius: 12px;
+}
+
+.link {
+    margin: 20px;
+    text-align: center;
+}
+
+.link img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Rendre l'image circulaire */
+    border: 2px solid #000000;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.link img:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.link p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 14px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
